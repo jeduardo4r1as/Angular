@@ -1,0 +1,25 @@
+<p>Calculadora</p>
+
+<div>
+    <input type="number"  placeholder="ingrese un numero para realizar operacion" [(ngModel)]="numero1" />
+   
+
+    <input type="number" placeholder="ingrese un numero para realizar operacion" [(ngModel)]="numero2" />
+
+</div>
+
+<h1>Total:{{total}}</h1>
+
+<button (click)="miSuma()">suma</button>
+<br>
+<br>
+<button (click)="miResta()">Resta</button>
+<br>
+<br>
+<button (click)="mimultiplicacion()">Multiplicacion</button>
+<br>
+<br>
+<button (click)="miDivision()">Division</button>
+<br>
+<br>
+<button (click)="miCuadrado()">Elevevar a la potencia</button>
